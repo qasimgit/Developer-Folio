@@ -3,16 +3,23 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //Componets
-import {Home} from './components'
+import { Home, About, Services, Contact, Navbar, Footer } from "./components";
 
 function App() {
-  return <div>
-    <Router>
-      <Routes>
-      <Route path="/" element={<Home/>} />
-      </Routes>
-    </Router>
-  </div>;
+  return (
+    <div>
+      <Navbar />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
