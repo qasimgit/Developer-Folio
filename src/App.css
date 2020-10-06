@@ -157,6 +157,42 @@ NavLink {
   background-color: white;
 }
 
-.social-icons a{
+.social-icons a {
   margin-right: 15px;
+}
+
+/* responsive code */
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
+
+  .about-intro-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .svg-image img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .home-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+
+  .footer-content{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.link-to-github{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 }

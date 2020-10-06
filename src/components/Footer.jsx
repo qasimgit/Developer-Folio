@@ -80,7 +80,7 @@ export const Footer = () => {
                   </a>
                 </p>
               </div>
-              <div>
+              <div className="link-to-github">
                 {" "}
                 <a href="https://github.com/qasimgit/Developer-Folio">
                   @Dont Forget to star it on Github
