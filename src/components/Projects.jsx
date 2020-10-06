@@ -12,7 +12,7 @@ export const Projects = () => {
             <div className="cards-container">
               {projectData.map((value, index) => {
                 return (
-                  <div className="card">
+                  <div className="card" key={index}>
                     <img
                       src={value.imagesrc}
                       className="card-img-top"
@@ -21,7 +21,7 @@ export const Projects = () => {
                     <div className="card-body">
                       <h5 className="card-title">{value.name}</h5>
                       <p className="card-text">{value.detail}</p>
-                      <a href={value.repolink} className="btn btn-primary">
+                      <a href={value.repolink} className="card-btn ">
                         Repository
                       </a>
                     </div>
