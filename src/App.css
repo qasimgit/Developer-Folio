@@ -156,3 +156,7 @@ NavLink {
   color: #3498db;
   background-color: white;
 }
+
+.social-icons a{
+  margin-right: 15px;
+}

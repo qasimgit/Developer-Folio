@@ -30,10 +30,14 @@ export const About = () => {
                     />
                   </p>
                   <p>
-                    - 🔭 I’m currently enrolled in 4 year undergraduate BS
-                    Compute Science.
+                    <span role="img">- 🔭</span> I’m currently enrolled in 4
+                    year undergraduate BS Compute Science.
                   </p>
-                  <p>- 🌱 I’m currently making full grasp on React Js</p>
+                  <p>
+                    {" "}
+                    <span role="img"> - 🌱 </span>I’m currently making full
+                    grasp on React Js
+                  </p>
                   <p>
                     - 👨‍💻 All of my projects are available at{"  "}
                     <a href="https://github.com/qasimgit">
@@ -41,12 +45,16 @@ export const About = () => {
                     </a>
                   </p>
                   <p>
-                    - 📝 I often write articles on{"  "}
+                    <span role="img"> - 📝 </span>I often write articles on
+                    {"  "}
                     <a href="https://medium.com/@qasimpkkhi">
                       https://medium.com/@qasimpkkhi
                     </a>
                   </p>
-                  <p>- 📫 How to reach me qasimpkkhi@gmail.com</p>
+                  <p>
+                    <span role="img">- 📫 </span>How to reach me
+                    qasimpkkhi@gmail.com
+                  </p>
                   <p>- ⚡ Fun fact Chai Over Coffee</p>
                   <p align="left">
                     <img
@@ -113,75 +121,6 @@ export const About = () => {
                       height="60"
                     />
                   </p>
-
-                  {/* <p align="center">
-                <a href="https://dev.to/https://dev.to/qasimgit" target="blank">
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg"
-                    alt="https://dev.to/qasimgit"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-                <a
-                  href="https://twitter.com/https://twitter.com/muhammad_qasiim"
-                  target="blank"
-                >
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"
-                    alt="https://twitter.com/muhammad_qasiim"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-                <a
-                  href="https://linkedin.com/in/https://www.linkedin.com/in/muhammad-qasim-qadri-2397ab150/"
-                  target="blank"
-                >
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
-                    alt="https://www.linkedin.com/in/muhammad-qasim-qadri-2397ab150/"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-                <a
-                  href="https://stackoverflow.com/users/https://stackoverflow.com/users/11687571/muhammad-qasim-qadri"
-                  target="blank"
-                >
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg"
-                    alt="https://stackoverflow.com/users/11687571/muhammad-qasim-qadri"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-                <a
-                  href="https://fb.com/https://www.facebook.com/muhmdqasimqadri"
-                  target="blank"
-                >
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg"
-                    alt="https://www.facebook.com/muhmdqasimqadri"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-                <a href="https://medium.com/@qasimpkkhi" target="blank">
-                  <img
-                    align="center"
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg"
-                    alt="@qasimpkkhi"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-              </p> */}
                 </div>
                 <div className="svg-image">
                   <img

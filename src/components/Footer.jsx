@@ -8,7 +8,7 @@ export const Footer = () => {
           <div className="col-11 mx-auto">
             <div className="footer-content">
               <div>
-                <p align="center">
+                <p align="center" className="social-icons">
                   <a
                     href="https://dev.to/https://dev.to/qasimgit"
                     target="blank"
@@ -86,7 +86,9 @@ export const Footer = () => {
                   @Dont Forget to star it on Github
                 </a>
               </div>
-              <div>Muhammad Qasim Qadri</div>
+              <div>
+                <h3>Muhammad Qasim Qadri </h3>
+              </div>
             </div>
           </div>
         </div>
