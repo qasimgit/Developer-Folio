@@ -17,14 +17,14 @@ const projectData = [
     name: "Corona Virus Tacker",
     detail:
       "World Wide Corona Virus Tracker build with Reactjs with some libraries MaterialUi, Count and Chartjs with countryPicker and some other stuff ",
-    imagesrc: { covid },
+    imagesrc: covid,
     repolink: "https://github.com/qasimgit/Covid-19-Tracker-Reactjs",
   },
   {
     name: "React Firebase CRUD with React Router",
     detail:
       "Crud web app in which we can add edit and delete user with react router v6",
-    imagesrc: { crud },
+    imagesrc: crud,
     repolink:
       "https://github.com/qasimgit/Reactjs-CRUD-Application-with-React-Router",
   },
@@ -32,7 +32,7 @@ const projectData = [
     name: "Github Jobs Clone",
     detail:
       "Using Github Jobs api, github jobs webapp clone in react with axios and react-bootstrap",
-    imagesrc: { githubjobs },
+    imagesrc: githubjobs,
     repolink: "https://github.com/qasimgit/Github-Jobs-app",
     link: "http://jobapi.surge.sh/",
   },
@@ -40,14 +40,14 @@ const projectData = [
     name: "Simple Ecommerce Product Templete React",
     detail:
       "A simple ecommercer products webapp in which product can be filtered with lowest and highest prices",
-    imagesrc: { ecomm },
+    imagesrc: ecomm,
     repolink: "https://github.com/qasimgit/Reactjs-Ecomerce-products-template",
   },
   {
     name: "DMC South Government React Web",
     detail:
       "A government organization website which is purely built on React and Firebase for realtime database",
-    imagesrc: { dmc },
+    imagesrc: dmc,
     link: "https://dmcsouth.surge.sh",
   },
 ];

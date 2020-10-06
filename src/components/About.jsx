@@ -30,32 +30,32 @@ export const About = () => {
                     />
                   </p>
                   <p>
-                    <span role="img">- 🔭</span> I’m currently enrolled in 4
+                    <span role="img"  aria-label="donut">- 🔭</span> I’m currently enrolled in 4
                     year undergraduate BS Compute Science.
                   </p>
                   <p>
                     {" "}
-                    <span role="img"> - 🌱 </span>I’m currently making full
+                    <span role="img"  aria-label="donut"> - 🌱 </span>I’m currently making full
                     grasp on React Js
                   </p>
                   <p>
-                    - 👨‍💻 All of my projects are available at{"  "}
+                  <span role="img"  aria-label="donut"> - 👨‍💻</span> All of my projects are available at{"  "}
                     <a href="https://github.com/qasimgit">
                       https://github.com/qasimgit
                     </a>
                   </p>
                   <p>
-                    <span role="img"> - 📝 </span>I often write articles on
+                    <span role="img" aria-label="donut"> - 📝 </span>I often write articles on
                     {"  "}
                     <a href="https://medium.com/@qasimpkkhi">
                       https://medium.com/@qasimpkkhi
                     </a>
                   </p>
                   <p>
-                    <span role="img">- 📫 </span>How to reach me
+                    <span role="img" aria-label="donut">- 📫 </span>How to reach me
                     qasimpkkhi@gmail.com
                   </p>
-                  <p>- ⚡ Fun fact Chai Over Coffee</p>
+                  <p><span role="img"  aria-label="donut">- ⚡</span> Fun fact Chai Over Coffee</p>
                   <p align="left">
                     <img
                       className="skill-img"
