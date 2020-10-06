@@ -107,11 +107,28 @@ NavLink {
   width: 60%;
 }
 
-.about-intro-img{
+.about-intro-img {
   display: flex;
 }
 
-.svg-image img{
+.svg-image img {
   width: 800px;
   height: 600px;
+}
+
+.card {
+  width: 20rem;
+  margin: 20px;
+}
+
+.project-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
