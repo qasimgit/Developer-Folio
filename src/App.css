@@ -137,6 +137,7 @@ NavLink {
 .footer-content {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 .card-btn {
@@ -167,6 +168,8 @@ NavLink {
   .navbar-brand {
     font-size: 1.1rem !important;
   }
+
+
 
   .about-intro-img {
     display: flex;
