@@ -10,7 +10,7 @@ const projectData = [
     name: "React Developer Portfolio",
     detail:
       "Minimalist Deveoper Portfolio website purely built on Reactjs with react-animations",
-    imagesrc: { devfolio },
+    imagesrc:  devfolio ,
     repolink: "https://github.com/qasimgit/Developer-Folio",
   },
   {
