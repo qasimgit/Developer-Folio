@@ -4,13 +4,14 @@ import devfolio from "../assets/devfolio.JPG";
 import dmc from "../assets/dmc.JPG";
 import ecomm from "../assets/ecomm.jpg";
 import githubjobs from "../assets/githubjobs.JPG";
+import mark from "../assets/snap.JPG";
 
 const projectData = [
   {
     name: "React Developer Portfolio",
     detail:
       "Minimalist Deveoper Portfolio website purely built on Reactjs with react-animations",
-    imagesrc:  devfolio ,
+    imagesrc: devfolio,
     repolink: "https://github.com/qasimgit/Developer-Folio",
   },
   {
@@ -44,11 +45,18 @@ const projectData = [
     repolink: "https://github.com/qasimgit/Reactjs-Ecomerce-products-template",
   },
   {
+    name: "Mark Properties State Agency",
+    detail:
+      "A Very well known State agency working for years in Karachi and serving its clients with fully satisfication",
+    imagesrc: mark,
+    link: "https://dmcsouth.surge.sh",
+  },
+  {
     name: "DMC South Government React Web",
     detail:
       "A government organization website which is purely built on React and Firebase for realtime database",
     imagesrc: dmc,
-    link: "https://dmcsouth.surge.sh",
+    link: "https://markproperties.surge.sh",
   },
 ];
 
